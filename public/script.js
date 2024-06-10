@@ -1,12 +1,4 @@
-Toastify({
-  text: "10 June - King's Birthday public holiday (Monday)",
-  offset: {
-    x: 100, 
-    y: 30 
-  
-  },
-  duration: 6000,
-}).showToast();
+
 document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("loader").style.display = "block";
   document.getElementById("loader").style.display = "block";
