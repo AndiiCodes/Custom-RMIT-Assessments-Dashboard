@@ -31,7 +31,8 @@ async function fetchAndDisplayCourses() {
       (course) =>
         course.name !== "Succeed VE 2024" &&
         course.name !== "Dip of Information Technology (2405)"&&
-        course.name !== "How2RMIT"
+        course.name !== "How2RMIT"&&
+        course.name !== "Academic Integrity Awareness"
     );
 
     const container = document.getElementById("container");
