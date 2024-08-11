@@ -1,13 +1,9 @@
-
 document.addEventListener("DOMContentLoaded", async () => {
-   document.getElementById("loader").style.display = "block";
-   document.getElementById("loader").style.display = "block";
-
-   //const closeIcon = document.querySelector(".info__close svg");
+  document.getElementById("loader").style.display = "block";
+//const closeIcon = document.querySelector(".info__close svg");
    //const inf2 = document.querySelector(".info-container");
    //closeIcon.addEventListener("click", () => {
      //inf2.style.display = "none";
-   });
   try {
     await fetchAndDisplayCourses();
     document.getElementById("loader").style.display = "none";
@@ -30,8 +26,8 @@ async function fetchAndDisplayCourses() {
     courses = courses.filter(
       (course) =>
         course.name !== "Succeed VE 2024" &&
-        course.name !== "Dip of Information Technology (2405)"&&
-        course.name !== "How2RMIT"&&
+        course.name !== "Dip of Information Technology (2405)" &&
+        course.name !== "How2RMIT" &&
         course.name !== "Academic Integrity Awareness"
     );
 
@@ -128,7 +124,7 @@ async function fetchAssessments(courseId) {
   }
   return await response.json();
 }
-// dates
+
 function formatDate(dateString) {
   const date = new Date(dateString);
   const day = date.getDate();
