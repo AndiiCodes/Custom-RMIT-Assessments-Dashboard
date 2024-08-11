@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
-   //document.getElementById("loader").style.display = "block";
-   //document.getElementById("loader").style.display = "block";
+   document.getElementById("loader").style.display = "block";
+   document.getElementById("loader").style.display = "block";
 
    //const closeIcon = document.querySelector(".info__close svg");
    //const inf2 = document.querySelector(".info-container");
