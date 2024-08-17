@@ -15,4 +15,4 @@
           ); ```
 
 ```
- - you can find above code in <a href="https://github.com/AndiiCodes/f4bccc"> here </a> > public > index.html
+ - you can find above code in <a href="https://github.com/AndiiCodes/f4bccc"> here </a> > public > script.js
