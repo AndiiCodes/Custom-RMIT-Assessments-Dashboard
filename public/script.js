@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("loader").style.display = "block";
-//const closeIcon = document.querySelector(".info__close svg");
-   //const inf2 = document.querySelector(".info-container");
-   //closeIcon.addEventListener("click", () => {
-     //inf2.style.display = "none";
+const closeIcon = document.querySelector(".info__close svg");
+   const inf2 = document.querySelector(".info-container");
+   closeIcon.addEventListener("click", () => {
+    inf2.style.display = "none";
   try {
     await fetchAndDisplayCourses();
     document.getElementById("loader").style.display = "none";
