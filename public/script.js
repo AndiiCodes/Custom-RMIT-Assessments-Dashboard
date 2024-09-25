@@ -1,12 +1,13 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
- document.getElementById("container3").style.display = "flex";
+   document.getElementById("container3").style.display = "flex";
+
 
  //  const closeIcon = document.querySelector(".info__close svg");
 //   const inf2 = document.querySelector(".info-container");
  //  closeIcon.addEventListener("click", () => {
     // inf2.style.display = "none";
-   });
+  // });
   try {
     await fetchAndDisplayCourses();
     document.getElementById("container3").style.display = "none";
