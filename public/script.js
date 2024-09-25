@@ -1,7 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
-   document.getElementById("loader").style.display = "block";
-  // document.getElementById("loader").style.display = "block";
+ document.getElementById("container3").style.display = "flex";
 
  //  const closeIcon = document.querySelector(".info__close svg");
 //   const inf2 = document.querySelector(".info-container");
@@ -10,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
    });
   try {
     await fetchAndDisplayCourses();
-    document.getElementById("loader").style.display = "none";
+    document.getElementById("container3").style.display = "none";
     document.getElementById("container").style.display = "grid";
   } catch (error) {
     console.error("Error:", error);
