@@ -170,6 +170,7 @@ body{
 
 .wrapper li{
   margin: 5px;
+  z-index: 1;
 }
 
 .rmit{
