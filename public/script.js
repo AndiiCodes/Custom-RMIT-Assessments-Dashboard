@@ -29,10 +29,11 @@ async function fetchAndDisplayCourses() {
 
     courses = courses.filter(
       (course) =>
-        course.name !== "Succeed VE 2024" &&
-        course.name !== "Dip of Information Technology (2405)" &&
+        course.name !== "Academic Integrity Awareness 2025" &&
+        course.name !== "RMIT Plus" &&
         course.name !== "How2RMIT" &&
-        course.name !== "Academic Integrity Awareness"
+        course.name !== "Sex and Consent for Domestic Students 2025"&&
+        course.name !== "Succeed VE 2025"
     );
 
     const container = document.getElementById("container");
