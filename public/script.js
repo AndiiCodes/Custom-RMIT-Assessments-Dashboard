@@ -33,7 +33,8 @@ async function fetchAndDisplayCourses() {
         course.name !== "RMIT Plus" &&
         course.name !== "How2RMIT" &&
         course.name !== "Sex and Consent for Domestic Students 2025"&&
-        course.name !== "Succeed VE 2025"
+        course.name !== "Succeed VE 2025"&&
+        course.name !== "Succeed VE 2024"
     );
 
     const container = document.getElementById("container");
